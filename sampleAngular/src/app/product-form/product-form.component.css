@@ -1,0 +1,37 @@
+.product-form {
+  width: 300px;
+  background: #fff;
+  padding: 16px;
+  margin: 0 auto;
+}
+.input-group {
+  margin: 16px 0;
+  display: flex;
+}
+
+.input-group label {
+  flex-basis: 100px;
+}
+
+.input-group input {
+  padding: 6px 8px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+}
+
+.button { 
+    width: 150px;
+    color: #fff;
+    border: 1px solid;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.primary-button {
+  background: #0d47a1;
+}
+
+.secondary-button {
+  background: #ff7043;
+}

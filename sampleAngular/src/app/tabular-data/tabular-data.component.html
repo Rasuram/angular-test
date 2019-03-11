@@ -1,0 +1,42 @@
+<div>
+  <a class="add-button button" routerLink="add">Add Product</a>
+  <table class="tabular-data">
+    <thead>
+      <tr>
+        <th>Product Id</th>
+        <th>Product Name</th>
+        <th>Product Type</th>
+        <th>Product Price</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of productsList; let i = index">
+        <td>{{ product.productId }}</td>
+        <td>{{ product.productName }}</td>
+        <td>{{ product.productType }}</td>
+        <td>{{ product.price }}</td>
+        <td>
+          <button
+            (click)="onView(product.productId)"
+            class="button view-button"
+          >
+            View
+          </button>
+          <button
+            class="button primary-button"
+            (click)="onEdit(product.productId)"
+          >
+            Edit
+          </button>
+          <button
+            class="button secondary-button"
+            (click)="onDelete(product.productId)"
+          >
+            Delete
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

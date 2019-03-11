@@ -1,0 +1,31 @@
+.tabular-data {
+  width: 100%;
+}
+
+.button {
+  width: 150px;
+  color: #fff;
+  border: 1px solid;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.primary-button {
+  background: #0d47a1;
+}
+
+.secondary-button {
+  background: #ff7043;
+}
+
+.view-button {
+  background: #4caf50;
+}
+
+.add-button {
+  background: #0d47a1;
+  text-decoration: none;
+  float: right;
+  text-align: center;
+}

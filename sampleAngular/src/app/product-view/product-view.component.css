@@ -1,0 +1,29 @@
+.product-view {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.group {
+  margin: 16px 0;
+}
+
+.group label {
+  color: #888;
+}
+
+.group p {
+  margin: 4px 0;
+}
+
+.button { 
+    width: 150px;
+    color: #fff;
+    border: 1px solid;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.secondary-button {
+  background: #ff7043;
+}
